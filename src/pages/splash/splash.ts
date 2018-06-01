@@ -19,7 +19,7 @@ export class SplashPage {
  
     setTimeout(() => {
       this.viewCtrl.dismiss();
-      this.navCtrl.push('LoginPage');
+      this.navCtrl.setRoot('LoginPage');
     }, 4000);
  
   }
